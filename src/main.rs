@@ -1,6 +1,5 @@
-use clap::{Arg, ArgAction, ArgMatches, Command, Subcommand};
-use std::env;
-use std::path::{Path, PathBuf};
+use clap::{Arg, ArgMatches, Command, Subcommand};
+use std::path::PathBuf;
 
 mod config;
 mod repo;
