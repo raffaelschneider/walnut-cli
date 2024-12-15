@@ -1,6 +1,5 @@
 use std::fs::{File, OpenOptions};
 use std::io::{Read, Write};
-use std::path::Path;
 use chrono::Local;
 
 /// Creates a new journal entry using the template from `Templates/Journal/_record.md`

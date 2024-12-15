@@ -7,7 +7,7 @@ mod repo;
 mod new;
 
 use config::{load_config, Config};
-use repo::{setup_repository, list_repositories, add_repository};
+use repo::{setup_repository, list_repositories};
 use new::{create_journal_entry, create_note_entry};
 
 #[derive(Subcommand)]
